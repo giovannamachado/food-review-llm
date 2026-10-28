@@ -1,0 +1,354 @@
+{
+  "aspect/majority": {
+    "val": {
+      "macro_f1": 0.1037,
+      "ci95": [
+        0.0883,
+        0.1181
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 0.4,
+      "ece": 0.7382
+    },
+    "test_id": {
+      "macro_f1": 0.0957,
+      "ci95": [
+        0.0796,
+        0.1106
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 0.3,
+      "ece": 0.7634
+    },
+    "test_ood": {
+      "macro_f1": 0.1,
+      "ci95": [
+        0.0905,
+        0.1087
+      ],
+      "n": 900,
+      "cpu_ms_per_1k": 0.1,
+      "ece": 0.75,
+      "slice_negation": {
+        "macro_f1": 0.1031,
+        "n": 181
+      },
+      "slice_typo": {
+        "macro_f1": 0.0908,
+        "n": 320
+      },
+      "slice_clean": {
+        "macro_f1": 0.1029,
+        "n": 459
+      }
+    }
+  },
+  "aspect/tfidf_word_lr": {
+    "val": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 17.9,
+      "ece": 0.0166
+    },
+    "test_id": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 10.4,
+      "ece": 0.0172
+    },
+    "test_ood": {
+      "macro_f1": 0.5807,
+      "ci95": [
+        0.5469,
+        0.6146
+      ],
+      "n": 900,
+      "cpu_ms_per_1k": 9.7,
+      "ece": 0.132,
+      "slice_negation": {
+        "macro_f1": 0.5938,
+        "n": 181
+      },
+      "slice_typo": {
+        "macro_f1": 0.5833,
+        "n": 320
+      },
+      "slice_clean": {
+        "macro_f1": 0.5901,
+        "n": 459
+      }
+    }
+  },
+  "aspect/tfidf_char_lr": {
+    "val": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 88.2,
+      "ece": 0.0149
+    },
+    "test_id": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 48.9,
+      "ece": 0.0135
+    },
+    "test_ood": {
+      "macro_f1": 0.6739,
+      "ci95": [
+        0.6437,
+        0.7032
+      ],
+      "n": 900,
+      "cpu_ms_per_1k": 47.4,
+      "ece": 0.0653,
+      "slice_negation": {
+        "macro_f1": 0.7018,
+        "n": 181
+      },
+      "slice_typo": {
+        "macro_f1": 0.7156,
+        "n": 320
+      },
+      "slice_clean": {
+        "macro_f1": 0.6394,
+        "n": 459
+      }
+    }
+  },
+  "aspect/tfidf_word+char_lr": {
+    "val": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 109.0,
+      "ece": 0.0081
+    },
+    "test_id": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 59.5,
+      "ece": 0.008
+    },
+    "test_ood": {
+      "macro_f1": 0.6625,
+      "ci95": [
+        0.6309,
+        0.692
+      ],
+      "n": 900,
+      "cpu_ms_per_1k": 58.5,
+      "ece": 0.0645,
+      "slice_negation": {
+        "macro_f1": 0.6496,
+        "n": 181
+      },
+      "slice_typo": {
+        "macro_f1": 0.7272,
+        "n": 320
+      },
+      "slice_clean": {
+        "macro_f1": 0.6385,
+        "n": 459
+      }
+    }
+  },
+  "sentiment/majority": {
+    "val": {
+      "macro_f1": 0.1752,
+      "ci95": [
+        0.155,
+        0.1949
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 0.3,
+      "ece": 0.6435
+    },
+    "test_id": {
+      "macro_f1": 0.1647,
+      "ci95": [
+        0.1436,
+        0.1831
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 0.2,
+      "ece": 0.6719
+    },
+    "test_ood": {
+      "macro_f1": 0.1667,
+      "ci95": [
+        0.1547,
+        0.1773
+      ],
+      "n": 900,
+      "cpu_ms_per_1k": 0.1,
+      "ece": 0.6667,
+      "slice_negation": {
+        "macro_f1": 0.1741,
+        "n": 181
+      },
+      "slice_typo": {
+        "macro_f1": 0.1671,
+        "n": 320
+      },
+      "slice_clean": {
+        "macro_f1": 0.1634,
+        "n": 459
+      }
+    }
+  },
+  "sentiment/tfidf_word_lr": {
+    "val": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 17.5,
+      "ece": 0.0226
+    },
+    "test_id": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 10.0,
+      "ece": 0.0239
+    },
+    "test_ood": {
+      "macro_f1": 0.3824,
+      "ci95": [
+        0.3503,
+        0.4122
+      ],
+      "n": 900,
+      "cpu_ms_per_1k": 9.5,
+      "ece": 0.2671,
+      "slice_negation": {
+        "macro_f1": 0.2449,
+        "n": 181
+      },
+      "slice_typo": {
+        "macro_f1": 0.3817,
+        "n": 320
+      },
+      "slice_clean": {
+        "macro_f1": 0.414,
+        "n": 459
+      }
+    }
+  },
+  "sentiment/tfidf_char_lr": {
+    "val": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 87.9,
+      "ece": 0.022
+    },
+    "test_id": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 48.9,
+      "ece": 0.024
+    },
+    "test_ood": {
+      "macro_f1": 0.4166,
+      "ci95": [
+        0.3841,
+        0.4475
+      ],
+      "n": 900,
+      "cpu_ms_per_1k": 47.2,
+      "ece": 0.3036,
+      "slice_negation": {
+        "macro_f1": 0.221,
+        "n": 181
+      },
+      "slice_typo": {
+        "macro_f1": 0.4096,
+        "n": 320
+      },
+      "slice_clean": {
+        "macro_f1": 0.4581,
+        "n": 459
+      }
+    }
+  },
+  "sentiment/tfidf_word+char_lr": {
+    "val": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 106.7,
+      "ece": 0.0122
+    },
+    "test_id": {
+      "macro_f1": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n": 317,
+      "cpu_ms_per_1k": 59.2,
+      "ece": 0.013
+    },
+    "test_ood": {
+      "macro_f1": 0.4135,
+      "ci95": [
+        0.3804,
+        0.4451
+      ],
+      "n": 900,
+      "cpu_ms_per_1k": 56.3,
+      "ece": 0.2945,
+      "slice_negation": {
+        "macro_f1": 0.2477,
+        "n": 181
+      },
+      "slice_typo": {
+        "macro_f1": 0.4046,
+        "n": 320
+      },
+      "slice_clean": {
+        "macro_f1": 0.4545,
+        "n": 459
+      }
+    }
+  }
+}

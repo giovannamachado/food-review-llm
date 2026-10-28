@@ -1,0 +1,901 @@
+text,aspect,sentiment,flags
+"serio, a entrega deixou a desejar!",entrega,negativo,lower|noaccent
+"pô, a jatna estava intragável...",comida,negativo,lower|typo
+"srio, o saquinho foi decepcionante!",embalagem,negativo,lower|typo
+a moça do suporte me deixou no vácuo!!,atendimento,negativo,lower
+o motoboy chegou mais ou menos na hora!!,entrega,neutro,lower|noaccent
+"po, o acai foi mais ou menos!",comida,neutro,lower|noaccent|typo
+"olha, a caixinha foi mias ou menos",embalagem,neutro,lower|typo
+"sério, o povo do restaurante foi tranquilo, nada demais...",atendimento,neutro,lower|negation
+"olha, o cara da entrega não demorou nada...",entrega,positivo,lower|negation
+"serio, a janta nao tinha nada de errado!",comida,positivo,lower|noaccent|negation
+o lacre veio tudo certinho!!,embalagem,positivo,noaccent
+"sério, a moça do suporte não deixou a desejar!",atendimento,positivo,lower|negation
+a entrega nao chegou no prazo,entrega,negativo,lower|noaccent|typo|negation
+"olha, o lanche foi uma porcaria!!",comida,negativo,lower
+"olha, a caixinha veio todo baguncado!!",embalagem,negativo,lower|noaccent
+"Olha, a moça do suporte me deixou no vácuo",atendimento,negativo,
+"olha, a entrega chegou mais ou menos na hora...",entrega,neutro,lower
+"sério, o lanche ficou no meio termo",comida,neutro,lower
+"olha, o saquinho e nada demais",embalagem,neutro,lower|noaccent|negation
+"pô, o pessoal do chat foi mais ou menos...",atendimento,neutro,lower|typo
+"olha, o motoboy me conquistou...",entrega,positivo,lower|typo
+"Mano, o açaí estava de outro mundo!!",comida,positivo,
+"pô, a caixinha mandou bem...",embalagem,positivo,lower
+"Serio, a moca do suporte nao deixou a desejar",atendimento,positivo,noaccent|negation
+"mano, a entrega sumu no caminho",entrega,negativo,lower|typo
+"Po, a mamrita era pura gordura...",comida,negativo,noaccent|typo
+"Mano, a caixinha foi uma porcaria",embalagem,negativo,
+"pô, o poov do restaurante me tratou com descaso!!",atendimento,negativo,lower|typo
+a entrega ficou no meio termo,entrega,neutro,noaccent
+"Po, a janta foi mais ou menos!",comida,neutro,noaccent
+"Séio, a tampa foi só ok",embalagem,neutro,typo
+"o povo do restaurante foi tranquilo, nada demais!",atendimento,neutro,negation
+"Mano, o motoboy chegou antes de eu terminar o filme",entrega,positivo,typo
+"mano, a jatna me conquistou...",comida,positivo,lower|noaccent|typo
+"mano, o saquiho não vazou nada...",embalagem,positivo,lower|typo|negation
+"Sério, o pessoal do chat não deixou a desejar",atendimento,positivo,negation
+"Mano, o motoboy foi decepcionante!",entrega,negativo,noaccent
+"Serio, a marmita estava salgada demais!",comida,negativo,noaccent
+"olha, o lacre deixou a desejar!",embalagem,negativo,lower
+"serio, a moca do suporte nao ajudou em nada...",atendimento,negativo,lower|noaccent|negation
+"Olha, o motoboy demorou o de sempre!",entrega,neutro,noaccent
+"olha, o açaí foi só ok...",comida,neutro,lower
+a caixinha é nada demais!,embalagem,neutro,negation
+"Mano, o pessoal do chat respondeu e pronto!!",atendimento,neutro,
+a entrega me conquitsou!,entrega,positivo,lower|typo
+"Olha, a marmita foi top",comida,positivo,noaccent|typo
+o lacre me conquistou!!,embalagem,positivo,lower|typo
+"mano, o povo do restaurante salvou meu pedido",atendimento,positivo,lower
+"pô, a entrega sumiu no caminho",entrega,negativo,lower
+"mano, o lanche era pura gordura...",comida,negativo,lower
+"mano, o lacre veio um desastre!!",embalagem,negativo,lower
+"serio, a moca do suporte nao deu a minima",atendimento,negativo,lower|noaccent|typo|negation
+"mano, a enrega demorou o de sempre!!",entrega,neutro,lower|noaccent|typo
+"Mano, a marmita foi mais ou menos",comida,neutro,
+"Pô, o saquinho ficou no meio termo!",embalagem,neutro,typo
+"Sério, a moça do suporte respondeu e pronto!!",atendimento,neutro,
+"olha, o motoboy foi show...",entrega,positivo,lower
+a marmita foi top!!,comida,positivo,lower|noaccent|typo
+"pô, o lacre veio super seguro...",embalagem,positivo,lower
+o SAC não deixou a desejar!,atendimento,positivo,negation
+"pô, o motoboy foi nota zero!!",entrega,negativo,lower
+"olha, o lanche estava salgada demais!!",comida,negativo,lower|noaccent
+"pô, a caixinha vio todo bagunçado",embalagem,negativo,lower|typo
+o pessoal do chat me tatou com descaso!,atendimento,negativo,lower|typo
+a entrega chegou mais ou menos na hora,entrega,neutro,typo
+"Sério, o lanche foi normalziho...",comida,neutro,typo
+a caixinha veio no padrão...,embalagem,neutro,lower
+"olha, o pessoal do chat respondeu e pronto!!",atendimento,neutro,lower|typo
+"Olha, a entrega chegou antes de eu terminar o filme!!",entrega,positivo,
+"Mano, a janta foi top!",comida,positivo,typo
+a tampa nao vazou nada...,embalagem,positivo,lower|noaccent|negation
+"Olh, o povo do restaurante me ajudou rapidinho...",atendimento,positivo,noaccent|typo
+a entrega foi uma porcaria,entrega,negativo,lower
+"serio, o acai nao estava boa...",comida,negativo,lower|noaccent|typo|negation
+"mano, a tampa nao fechou direit...",embalagem,negativo,lower|noaccent|typo|negation
+"Sério, a moça do suporte foi decepcionante!!",atendimento,negativo,
+"sério, a entrega demorou o de sempre...",entrega,neutro,lower
+"olha, o lanche não é nada deais",comida,neutro,lower|typo|negation
+"po, o saquinho ficou no meio termo",embalagem,neutro,lower|noaccent|typo
+"sério, o pessoal do chat foi normalzinho!!",atendimento,neutro,lower|typo
+"olha, o motoboy voou de rapido...",entrega,positivo,lower|noaccent
+"Olha, o açaí não tinha nada de errado!",comida,positivo,negation
+"sério, a tampa me conquistou...",embalagem,positivo,lower
+"serio, o sac foi show...",atendimento,positivo,lower|noaccent
+o motoboy foi uma lesma!!,entrega,negativo,
+"po, o lanche era pura gordura...",comida,negativo,lower|noaccent
+"olha, o lacre derramou tudo!",embalagem,negativo,lower
+"Mano, o povo do restaurante me deixou no vacuo",atendimento,negativo,noaccent
+o cara da entrega chegou mais ou menos na hora,entrega,neutro,noaccent
+a mramita estava mais ou menos!,comida,neutro,lower|noaccent|typo
+o sauinho veio no padrao...,embalagem,neutro,lower|noaccent|typo
+"olha, a moca do suporte ficou no meio termo!",atendimento,neutro,lower|noaccent
+"Po, o cara da entrega chegou antes de eu terminar o filme!!",entrega,positivo,noaccent
+"man, a marmita estava de outro mundo...",comida,positivo,lower|typo
+"po, o lacre veio super seguro!",embalagem,positivo,lower|noaccent
+"olha, o sac foi gente boa...",atendimento,positivo,lower
+a etnrega sumiu no caminho...,entrega,negativo,lower|typo
+"olha, a janta estava salgada demais",comida,negativo,lower|noaccent|typo
+"Mano, o saquinho nao fechou direito...",embalagem,negativo,noaccent|negation
+"Sério, o SAC me deixou no vácuo...",atendimento,negativo,
+o motoboy chegou mais ou menos na hora!,entrega,neutro,noaccent
+a marmita ficou no meio termo...,comida,neutro,
+"sério, o lacre é nada demais",embalagem,neutro,lower|negation
+"Mano, a moça do suporte respondeu e pronto!",atendimento,neutro,typo
+"Olha, o cara da entrega nem vi o tempo passar!!",entrega,positivo,negation
+"pô, a marmita estava de outro mundo",comida,positivo,lower
+"po, o lacre nao teve nenhum dano...",embalagem,positivo,lower|noaccent|negation
+o pessola do chat foi show!,atendimento,positivo,lower|typo
+"olha, a entrega foi uma porcaria!",entrega,negativo,lower|noaccent
+"Mano, a marmita foi uma porcaria!",comida,negativo,noaccent
+"Sério, a tampa não fechou direito!",embalagem,negativo,negation
+"Po, o povo do restaurante nao ajudou em nada...",atendimento,negativo,noaccent|negation
+o motoboy chegou mais ou menos na hora,entrega,neutro,noaccent
+"pô, a marmita ficou no meio termo!",comida,neutro,lower
+"Mano, a caixinha foi so ok...",embalagem,neutro,noaccent
+"Olha, o povo do restaurante foi só o!k!",atendimento,neutro,typo
+"sério, o cara da entrega vou de rápido!",entrega,positivo,lower|typo
+o lanche estava divina!!,comida,positivo,noaccent
+"Olha, a caixinha mandou bem..",embalagem,positivo,typo
+o povo do restaurante foi top,atendimento,positivo,lower
+"pô, o motoboy levou uma eternidade!",entrega,negativo,lower
+"mano, o açaí deixou a desejar!",comida,negativo,lower|typo
+"po, a caixinha derramou tudo...",embalagem,negativo,lower|noaccent
+"po, o pessoal do chat me tratou com descaso!",atendimento,negativo,lower|noaccent
+o cara da entrega demorou o de sempre!,entrega,neutro,
+"mano, a janta ficou no mieo termo",comida,neutro,lower|typo
+o lacre foi mais ou menos!,embalagem,neutro,lower
+"Mano, o pessoal do chat foi so ok!",atendimento,neutro,noaccent
+a entrega voou de rapido!,entrega,positivo,lower|noaccent|typo
+"Sério, a marmita estava de babar...",comida,positivo,
+a caixinha nao teve nenhum dano!!,embalagem,positivo,lower|noaccent|typo|negation
+"pô, o sac salvou meu pedido...",atendimento,positivo,lower|typo
+a entrega deixou a desejar!!,entrega,negativo,lower
+"serio, a marmita nao estava boa!!",comida,negativo,lower|noaccent|negation
+"mano, o lacre foi uma porcaria!",embalagem,negativo,lower|noaccent
+"Olha, a moca do suporte foi nota zero!",atendimento,negativo,noaccent|typo
+"olha, o motbooy foi mais ou menos...",entrega,neutro,lower|typo
+"Mano, a marmita foi mais ou menos!!",comida,neutro,
+"mano, a tampa ficou no meio termo!",embalagem,neutro,lower|noaccent
+o povo do restaurante foi normalzinho!!,atendimento,neutro,
+"sério, o cara da entrega não demorou nada!!",entrega,positivo,lower|negation
+a marmita me conquistou!!,comida,positivo,lower|noaccent
+o saquinho foi top...,embalagem,positivo,
+"po, a moca do suporte me ajudou rapidinho!!",atendimento,positivo,lower|noaccent
+o motoboy sumiu no caminho!!,entrega,negativo,
+"Pô, a janta deixou a desejar",comida,negativo,
+"Olha, o lacre foi nota zreo",embalagem,negativo,typo
+"Serio, o SAC me deixou no vacuo...",atendimento,negativo,noaccent
+"pô, o motoboy foi normalzinho!",entrega,neutro,lower
+"Pô, o lanche foi mais ou mens!",comida,neutro,typo
+"olha, a caixinha veio no padrão!!",embalagem,neutro,lower
+"Serio, o povo do restaurante foi tranquilo, nada demais!",atendimento,neutro,noaccent|negation
+"mano, a entrga chegou antes de eu terminar o filme",entrega,positivo,lower|typo
+a marmita foi show!,comida,positivo,
+"Mano, a caixinha nao vazou nad!",embalagem,positivo,noaccent|typo|negation
+"Mano, o SAC me ajudou rapidinho!",atendimento,positivo,
+"olha, a entrega não chegou no prazo",entrega,negativo,lower|negation
+a janta estava salgada demais!!,comida,negativo,lower
+"Pô, o saquinho deixou a desejar",embalagem,negativo,
+"sério, o pessoal do chat me deixou no vácuo!!",atendimento,negativo,lower
+"Sério, o motoboy foi só ok!!",entrega,neutro,
+a marmita estava mais ou menos,comida,neutro,lower
+"mano, o lacre veio no padrao!",embalagem,neutro,lower|noaccent
+"Serio, a moca do suporte foi normalzinho!!",atendimento,neutro,noaccent
+"Mano, o mooboy mandou bem",entrega,positivo,noaccent|typo
+"pô, a janta estava de babar...",comida,positivo,lower
+"Mano, o saquino foi show!!",embalagem,positivo,typo
+"pô, a moça do suporte me conquistou!",atendimento,positivo,lower
+o motoboy foi uma porcaria...,entrega,negativo,lower|noaccent
+a janta estava intragavel!,comida,negativo,lower|noaccent|typo
+"Pô, o lacre foi nota zero",embalagem,negativo,typo
+"Pô, o SAC me deixou no vácuo!",atendimento,negativo,
+"serio, o motoboy ficou no meio termo!!",entrega,neutro,lower|noaccent
+"mano, o lanche estava mais ou menos!",comida,neutro,lower|noaccent
+o lacre veio no padrão,embalagem,neutro,
+"mano, a moca do suporte foi normalzinho",atendimento,neutro,lower|noaccent|typo
+"serio, o cara da entrega chgeou antes de eu terminar o filme!!",entrega,positivo,lower|noaccent|typo
+"po, a marmita estava de babar!!",comida,positivo,lower|noaccent|typo
+a cixinha mandou bem!,embalagem,positivo,noaccent|typo
+"Mano, o povo do restaurante me conquistou...",atendimento,positivo,
+"serio, o cara da entrega foi uma lesma...",entrega,negativo,lower|noaccent
+a janta era pura gordura!!,comida,negativo,lower|noaccent
+"pô, o saquinho foi uma porcaria!!",embalagem,negativo,lower
+"Po, o pessoal do chat me deixou no vacuo...",atendimento,negativo,noaccent
+"olha, a entrega foi só ok!",entrega,neutro,lower|typo
+"Olha, a marmita foi so ok...",comida,neutro,noaccent
+"olha, o lacre é nada demias!!",embalagem,neutro,lower|typo|negation
+"Mano, a moça do suporte foi tranquilo, nada demais...",atendimento,neutro,negation
+"Ohla, o motoboy chegou antes de eu terminar o filme!",entrega,positivo,typo
+"mano, a marmita estava divina!",comida,positivo,lower|noaccent
+a tampa veio tudo certinho!!,embalagem,positivo,
+"mano, o povo do restaurante salvou meu pedido!",atendimento,positivo,lower|noaccent
+"sério, a entrega não chegou no parzo",entrega,negativo,lower|typo|negation
+a mrmita estava intragável!!,comida,negativo,lower|typo
+"Olha, a tampa deixou a desejar",embalagem,negativo,
+o SAC nao deu a minima...,atendimento,negativo,noaccent|typo|negation
+"Maon, o motoboy demorou o de sempre!",entrega,neutro,typo
+a janta foi mais ou menos!,comida,neutro,lower
+"Po, o lacre veio no padrao!",embalagem,neutro,noaccent|typo
+"mano, a moça do suporte foi só ok",atendimento,neutro,lower
+o motoboy voou de rápido,entrega,positivo,lower
+"Po, o acai foi top...",comida,positivo,noaccent|typo
+"Olha, o lacre nao vazou nada!",embalagem,positivo,noaccent|negation
+"Mano, o SAC foi gente boa!",atendimento,positivo,noaccent
+o motoboy levou uma eternidade!,entrega,negativo,noaccent
+"Mano, a janta era pura gordura!",comida,negativo,
+"pô, o lacre não fechou direito",embalagem,negativo,lower|negation
+"Mano, a moca do suporte me tratou com descaso!",atendimento,negativo,noaccent
+"Mano, a entrega foi só ok!!",entrega,neutro,
+"Po, a marmita nao e nada demais...",comida,neutro,noaccent|negation
+"mano, o saquinho veio no padrão!!",embalagem,neutro,lower
+"pô, o sac foi tranquilo, nada demais!",atendimento,neutro,lower|typo|negation
+o cara da entrega voou de rápido!!,entrega,positivo,lower|typo
+"pô, a marmita mandou bem...",comida,positivo,lower
+"Olha, o saquinho mandou bem!!",embalagem,positivo,typo
+a moça do suporte me ajudou rapidinho...,atendimento,positivo,lower
+"pô, o cara da entrega foi nota zero",entrega,negativo,lower
+"Pô, o lanche estava intragável!",comida,negativo,
+a tampa foi decpcionante...,embalagem,negativo,lower|noaccent|typo
+"sério, a moaç do suporte não deu a mínima!",atendimento,negativo,lower|typo|negation
+"Mano, o cara da entrega foi mais ou menos",entrega,neutro,
+"Olha, a janta ficou no meio termo...",comida,neutro,noaccent
+"Olha, a tampa ficou no meio termo",embalagem,neutro,
+"Po, o pessoal do chat foi tranquilo, nada demais",atendimento,neutro,noaccent|negation
+o motoboy nao demorou nada!!,entrega,positivo,noaccent|negation
+"olha, a janat estava de babar!!",comida,positivo,lower|noaccent|typo
+o saquinho veio tudo certinho!!,embalagem,positivo,
+"Pô, o pessoal do cht me conquistou!!",atendimento,positivo,typo
+o cara da entrega foi uma lesma!!,entrega,negativo,lower|noaccent
+"Serio, o acai deixou a desejar!!",comida,negativo,noaccent
+"Sério, o saquinho não fechou direito!",embalagem,negativo,negation
+o povo do restaurante foi uma porcaria...,atendimento,negativo,lower|noaccent|typo
+"Mano, a entrega dmeorou o de sempre!",entrega,neutro,noaccent|typo
+o açaí estava mais ou menos!,comida,neutro,lower
+o lacre veio no padrao...,embalagem,neutro,lower|noaccent
+"olha, a moca do suporte foi normalzinho!",atendimento,neutro,lower|noaccent
+"serio, a entrega chegou antes de eu terminar o filme!",entrega,positivo,lower|noaccent
+"Serio, a janta nao tinha naad de errado!",comida,positivo,noaccent|typo|negation
+"Mao, a tampa me conquistou!",embalagem,positivo,noaccent|typo
+"sério, o sac salvou meu pedido!!",atendimento,positivo,lower
+"Pô, o motoboy não chegou no prazo!!",entrega,negativo,typo|negation
+"Olha, o lanche foi decepcionante!!",comida,negativo,typo
+"Pô, a caixiha foi uma porcaria",embalagem,negativo,typo
+"Serio, o pessoal do chat nao ajudou em nada",atendimento,negativo,noaccent|negation
+"Sério, o cara da entrega demrou o de sempre!",entrega,neutro,typo
+"mano, a janta estava mais ou menos!!",comida,neutro,lower
+"olha, o saquinho ficou no meio termo",embalagem,neutro,lower|noaccent
+"Pô, o pessoal do chat foi tranquilo, nada demais!",atendimento,neutro,negation
+a entrega nem vi o tempo passar,entrega,positivo,lower|noaccent|negation
+"Pô, a marmita estava de babar",comida,positivo,typo
+"po, o saquino veio super seguro!",embalagem,positivo,lower|noaccent|typo
+"pô, a moça do suporte me ajudou rapidinho!!",atendimento,positivo,lower
+"Mano, o motoboy nao chegou no pazo!",entrega,negativo,noaccent|typo|negation
+"Maon, o lanche nao estava boa...",comida,negativo,noaccent|typo|negation
+"serio, a tampa veio todo baguncado",embalagem,negativo,lower|noaccent
+"mano, a moça do suporte foi uma porcaria!!",atendimento,negativo,lower
+"mano, o motoboy demorou o de sempre",entrega,neutro,lower|noaccent
+"Olah, a marmita estava mais ou menos!",comida,neutro,typo
+"olha, a caixinha ficou no meio tremo!",embalagem,neutro,lower|typo
+"mano, o pessoal do chat foi so ok...",atendimento,neutro,lower|noaccent
+"mano, o motoboy nem vi o tempo passar!!",entrega,positivo,lower|negation
+"pô, o açaí mandou bem!",comida,positivo,lower|typo
+"Pô, o saquinho veio tudo certinho!!",embalagem,positivo,
+"olha, a moca do suporte foi gente boa...",atendimento,positivo,lower|noaccent
+"Mano, o motoboy sumiu no caminho...",entrega,negativo,
+"Mano, a marmita estava intragável!!",comida,negativo,typo
+a tampa foi nota zero!!,embalagem,negativo,noaccent|typo
+"Po, o povo do restaurante nao ajudou em nada!",atendimento,negativo,noaccent|negation
+"Mano, o cara da entrega foi mais ou menos...",entrega,neutro,
+"pô, o açaí foi só ok...",comida,neutro,lower|typo
+"Po, a caixinha foi mais ou menos!",embalagem,neutro,noaccent|typo
+"Mano, o SAC repsondeu e pronto!!",atendimento,neutro,typo
+"Pô, a entrega foi top...",entrega,positivo,
+"pô, o açaí foi top...",comida,positivo,lower
+"mano, a caixinha veoi tudo certinho!",embalagem,positivo,lower|noaccent|typo
+"Olha, a moca do suporte foi gente boa...",atendimento,positivo,noaccent
+"Pô, a entrega foi uma lesma...",entrega,negativo,typo
+"serio, a janta nao estava boa",comida,negativo,lower|noaccent|negation
+"Po, o saquinho derramou tudo!",embalagem,negativo,noaccent
+"olha, o pessoal do chat me deixou no vácuo!!",atendimento,negativo,lower
+"pô, o motoboy chegou mais ou menos na hora",entrega,neutro,lower
+"Man, o acai estava mais ou menos",comida,neutro,noaccent|typo
+"Mano, o saquinho foi mais ou menos...",embalagem,neutro,typo
+o pessoal do chat foi normalzinho!,atendimento,neutro,
+"Po, o motoboy mandou bem...",entrega,positivo,noaccent
+"mano, a janta nao tinha nada de errado...",comida,positivo,lower|noaccent|negation
+"pô, a caixinha me conquistou!",embalagem,positivo,lower
+"Sério, o pessoal do chat me ajudou rapidinho...",atendimento,positivo,typo
+"sério, a entrega foi nota zero!!",entrega,negativo,lower
+"Pô, o lanche não estava boa",comida,negativo,typo|negation
+o saqunho veio um desastre...,embalagem,negativo,noaccent|typo
+o SAC dexiou a desejar...,atendimento,negativo,typo
+o motoboy ficou no meio termo,entrega,neutro,lower|noaccent
+o açaí não é nada demais...,comida,neutro,lower|negation
+a caixinha ficou no meio termo,embalagem,neutro,noaccent|typo
+"Po, a moca do sporte foi so ok...",atendimento,neutro,noaccent|typo
+"po, o cara da entrega nem vi o tempo passar!!",entrega,positivo,lower|noaccent|negation
+"Mano, a janta mandou bem",comida,positivo,
+"Olha, o lacre foi top",embalagem,positivo,typo
+"Olha, a moca do suporte foi top!!",atendimento,positivo,noaccent
+"olha, o cara da enrtega foi decepcionante",entrega,negativo,lower|noaccent|typo
+"Mano, o açía foi uma porcaria...",comida,negativo,typo
+"Olha, a tampa veoi um desastre",embalagem,negativo,noaccent|typo
+"olha, a moca do suporte foi decepcionante!!",atendimento,negativo,lower|noaccent
+a entrega demorou o de sempre,entrega,neutro,lower|noaccent
+"olha, o acai foi so ok",comida,neutro,lower|noaccent
+"Olha, o lacre veio no padrao!!",embalagem,neutro,noaccent|typo
+"Olha, a moça do suporte foi só ok!",atendimento,neutro,
+"pô, a enrega foi top...",entrega,positivo,lower|typo
+o lanche estava de babar!!,comida,positivo,typo
+"Olha, a tampa veio tudo certinho",embalagem,positivo,typo
+"olha, a moca do suporte foi top",atendimento,positivo,lower|noaccent
+o motoboy sumiu no caminho!!,entrega,negativo,typo
+"olha, a marmita não estava boa...",comida,negativo,lower|typo|negation
+"Olha, a tampa derramou tudo",embalagem,negativo,noaccent
+"Pô, o povo do restaurante me deioxu no vácuo!",atendimento,negativo,typo
+"po, o motoboy demorou o de sempre!",entrega,neutro,lower|noaccent
+a marmita estava mais ou menos,comida,neutro,
+a caixinha foi normalzinho...,embalagem,neutro,noaccent
+"Po, o pessoal do chat respondeu e pronto!!",atendimento,neutro,noaccent
+"Mano, o motoboy nem vi o tempo passar!",entrega,positivo,noaccent|negation
+o açía me conquistou!,comida,positivo,lower|typo
+"olha, a caixinha foi show!!",embalagem,positivo,lower|noaccent
+"pô, o povo do restaurante mandou bem",atendimento,positivo,lower
+"Pô, a entrega levou uma eternidade!",entrega,negativo,typo
+"Po, a marmita deixou a desejar",comida,negativo,noaccent
+o saquinho derramou tudo!,embalagem,negativo,lower
+a moca do suporte nao ajudou em nada!!,atendimento,negativo,noaccent|negation
+"Mano, o cara da entrega chegou mais ou menos na hora!!",entrega,neutro,
+"sério, a marmita estava mais ou menos...",comida,neutro,lower
+"mano, a tampa veio no padrao...",embalagem,neutro,lower|noaccent
+"sério, o povo do restaurante foi só ok",atendimento,neutro,lower
+"Sério, o motoboy voou de rápido...",entrega,positivo,typo
+"Ohla, a janta estava divina!!",comida,positivo,noaccent|typo
+o lacre veio tudo certinho!!,embalagem,positivo,lower|noaccent
+"olha, a moac do suporte foi gente boa...",atendimento,positivo,lower|noaccent|typo
+"pô, o motoboy deixou a desejar!",entrega,negativo,lower
+"serio, o lanche era prua gordura",comida,negativo,lower|noaccent|typo
+a tampa não fechou direito!!,embalagem,negativo,negation
+"olha, a moça do suporte me tratou com descaso!!",atendimento,negativo,lower
+"sério, a entrega chegou masi ou menos na hora!",entrega,neutro,lower|typo
+"Mano, a marmita foi normalzinho!!",comida,neutro,
+o saquinho veio no padrao!!,embalagem,neutro,noaccent
+"pô, o pessoal do chat foi só ok!",atendimento,neutro,lower
+a entrega foi show...,entrega,positivo,lower
+"Pô, a marmita mandou bem!",comida,positivo,
+"mano, o saquinho veoi super seguro",embalagem,positivo,lower|typo
+"Mano, a moça do suporte me ajudou rapidinho...",atendimento,positivo,
+"sério, o motoboy levuo uma eternidade!",entrega,negativo,lower|typo
+"Po, o aaci era pura gordura",comida,negativo,noaccent|typo
+"Mano, a tampa derramou tudo",embalagem,negativo,
+"Olha, o SAC me tratou com descaso...",atendimento,negativo,
+"serio, o cara da entrega ficou no meio termo...",entrega,neutro,lower|noaccent|typo
+"mano, a janta estava mais ou menos!",comida,neutro,lower
+"olha, o saquinho foi só ok",embalagem,neutro,lower
+"pô, o sac foi tranquilo, nada demais...",atendimento,neutro,lower|negation
+"Pô, o motoboy foi top",entrega,positivo,
+"Olh,a o açaí foi top",comida,positivo,typo
+"Serio, o lacre nao vazou nada",embalagem,positivo,noaccent|typo|negation
+"Sério, a moça do suporte me ajudou rapidinho!!",atendimento,positivo,
+"Olha, a entrega nao chegou no prazo...",entrega,negativo,noaccent|negation
+"Po, a marmita nao estava boa",comida,negativo,noaccent|typo|negation
+"Serio, a tampa derramou tudo...",embalagem,negativo,noaccent
+"Serio, o pessoal do chat deixou a desejar!!",atendimento,negativo,noaccent
+"mano, o cara da entrega foi mais ou menos...",entrega,neutro,lower|noaccent
+"Po, o lanche ficou no meio termo...",comida,neutro,noaccent
+o lacre foi normalzinho...,embalagem,neutro,
+"sério, o sac foi tranquilo, nada demais",atendimento,neutro,lower|negation
+"pô, o cara da entrega nem vi o tempo passar!!",entrega,positivo,lower|negation
+"po, o acai foi show",comida,positivo,lower|noaccent
+"séro, a tampa não vazou nada!!",embalagem,positivo,lower|typo|negation
+"olha, a moça do suporte foi top...",atendimento,positivo,lower
+"mano, o motoboy foi uma lesma...",entrega,negativo,lower|typo
+o lanche era pura gordura,comida,negativo,
+"pô, o saquinho derramou tudo",embalagem,negativo,lower|typo
+"Olha, o pessoal do chat não deu a mínima...",atendimento,negativo,negation
+"Po, o motoboy foi normalzinho",entrega,neutro,noaccent
+"Serio, o lanche foi so ok...",comida,neutro,noaccent|typo
+"Ola, a tampa veio no padrao!!",embalagem,neutro,noaccent|typo
+"po, o povo do restaurante respondeu e protno!!",atendimento,neutro,lower|noaccent|typo
+"mano, o motoboy chegou antes de eu terminar o filme...",entrega,positivo,lower|noaccent
+"olha, a mramita estava de outro mundo!!",comida,positivo,lower|typo
+"Mano, a caixinha me conquistou!",embalagem,positivo,noaccent
+"po, a moca do suporte foi top",atendimento,positivo,lower|noaccent
+"olha, a entrega foi decepcionante!!",entrega,negativo,lower
+"sério, a marmita foi uma porcaria!!",comida,negativo,lower
+"Sério, o saquinho foi decepcionante!",embalagem,negativo,
+o sac não ajudou em nada!,atendimento,negativo,lower|negation
+"Mano, o motoboy foi mais ou menos!",entrega,neutro,noaccent
+a janta não é nada demais!!,comida,neutro,lower|negation
+"po, o saquinho foi mais ou menos!",embalagem,neutro,lower|noaccent|typo
+o sac respondeu e pronto...,atendimento,neutro,lower
+"po, o motoboy foi show",entrega,positivo,lower|noaccent
+o aai estava divina!!,comida,positivo,lower|noaccent|typo
+"mano, a tampa veio tudo certinho!",embalagem,positivo,lower
+"olha, o sac foi show!!",atendimento,positivo,lower
+"Pô, a entrega sumiu no caminho",entrega,negativo,
+"Serio, o acai foi uma porcaria!!",comida,negativo,noaccent
+"Pô, o saquinho foi uma porcaria!!",embalagem,negativo,
+o pessoal do chta me deixou no vacuo,atendimento,negativo,lower|noaccent|typo
+"Olha, a entrega demorou o de sempre...",entrega,neutro,noaccent
+"serio, a marmita foi normlzinho!!",comida,neutro,lower|noaccent|typo
+"sério, a tampa é nada demais!!",embalagem,neutro,lower|negation
+"Mano, o pessoal do chat respondeu e pronto...",atendimento,neutro,
+"Po, o motoboy nao demoru nada!!",entrega,positivo,noaccent|typo|negation
+"Olha, a marmita mandou bem",comida,positivo,
+a tampa me conquistou,embalagem,positivo,lower
+"Pô, a moça do suporte manduo bem...",atendimento,positivo,typo
+o cara da entrega deixou a desejar!!,entrega,negativo,noaccent
+a marmita estava salgada demais...,comida,negativo,noaccent
+"sério, a tampa deixou a dseejar!",embalagem,negativo,lower|typo
+"Sério, o povo do restaurante não deu a mínima!!",atendimento,negativo,typo|negation
+o motoboy foi só ok...,entrega,neutro,
+"Pô, a marmita ficou no meio termo!",comida,neutro,typo
+"po, a caixinha vieo no padrao",embalagem,neutro,lower|noaccent|typo
+"olha, o povo do restaurante foi normalzinho!",atendimento,neutro,lower|noaccent
+"Mano, a entrega mandou bem!",entrega,positivo,
+"Sério, a marmita foi show",comida,positivo,
+"olha, a cixinha me conquistou!",embalagem,positivo,lower|noaccent|typo
+o povo do restaurante salvou meu pedido!!,atendimento,positivo,lower|typo
+"Mano, o cara da entrega foi uma lesma!",entrega,negativo,noaccent
+"mano, a janta foi uma porcaria!!",comida,negativo,lower
+"Mano, o lacre veio um desastre!!",embalagem,negativo,
+"Olha, o SAC me tratou com descaso...",atendimento,negativo,noaccent|typo
+"sério, a entrega foi normalzinho!!",entrega,neutro,lower|typo
+a janta foi so ok...,comida,neutro,noaccent
+a tampa foi mais ou menos!!,embalagem,neutro,
+"serio, o pvo do restaurante ficou no meio termo...",atendimento,neutro,lower|noaccent|typo
+a entrega foi show...,entrega,positivo,typo
+"Pô, a janta me conquistou!",comida,positivo,typo
+"pô, o lacre foi top",embalagem,positivo,lower
+"Sério, o pessoal do chat me ajudou rapidinho...",atendimento,positivo,
+o cara da entrega foi uma lesma!,entrega,negativo,lower
+"Pô, o açaí foi decepcionante",comida,negativo,
+"Olha, a caixniha veio um desastre",embalagem,negativo,typo
+"sério, a moça do suporte foi nota zero!!",atendimento,negativo,lower
+"Olha, o cara da entrea chegou mais ou menos na hora!!",entrega,neutro,typo
+"Mano, a marmita foi normalzinho!",comida,neutro,noaccent
+"Po, a tampa foi so ok!",embalagem,neutro,noaccent|typo
+o pessoal do chat ficou no meio termo!,atendimento,neutro,
+"mano, o cara da entrega foi top",entrega,positivo,lower
+"serio, a janta estava de babar",comida,positivo,lower|noaccent|typo
+o saquinho nao teve nenhum dano...,embalagem,positivo,lower|noaccent|negation
+o povo do restaurante salvou meu pedido!!,atendimento,positivo,lower|noaccent
+"Mano, o motoboy sumiu no caminho...",entrega,negativo,typo
+"po, a marmita estava salgada demais...",comida,negativo,lower|noaccent|typo
+"Pô, a caixinha veio um desastre!!",embalagem,negativo,
+"serio, o povo do restaurante nao ajudou em nada",atendimento,negativo,lower|noaccent|negation
+"mano, o motoboy demorou o de sempre...",entrega,neutro,lower|noaccent
+"Po, a marmita foi normalzinho",comida,neutro,noaccent
+"mano, a tampa veio no padrao",embalagem,neutro,lower|noaccent|typo
+"Serio, o povo do restaurante foi so ok...",atendimento,neutro,noaccent
+"Olha, a entrega foi to!",entrega,positivo,typo
+"mano, a marmita nao tinha nada de errado!!",comida,positivo,lower|noaccent|typo|negation
+"olha, o saquinho me conquistou",embalagem,positivo,lower
+"Mano, o SAC salvou meu pedido",atendimento,positivo,
+"Olha, o cara da entrega sumiu no caminho!",entrega,negativo,typo
+"mano, a janta foi nota zero!",comida,negativo,lower
+"pô, o saquinho veio um desastre...",embalagem,negativo,lower|typo
+"Mano, o povo do restaurante foi nota zero!!",atendimento,negativo,
+"Mano, o motoboy cegou mais ou menos na hora",entrega,neutro,noaccent|typo
+"Pô, o açaí não é nada demais",comida,neutro,negation
+"Pô, a caixinha veio no padrão!!",embalagem,neutro,
+a moça do suporte ficou no meio tremo...,atendimento,neutro,lower|typo
+"olha, a entrega nem vi o tempo passar!",entrega,positivo,lower|noaccent|typo|negation
+a marmita estava de babar!,comida,positivo,noaccent
+o lacre veio tudo certinho!,embalagem,positivo,noaccent
+"sério, o pessoal do chat foi top...",atendimento,positivo,lower|typo
+"Olha, a entrega nao chegou no prazo",entrega,negativo,noaccent|typo|negation
+o lanche era pura gordura...,comida,negativo,noaccent
+a tampa não fechou direito!!,embalagem,negativo,lower|negation
+o SAC me tratou com descaso!,atendimento,negativo,noaccent|typo
+"Olha, o motoboy ficou no meio termo",entrega,neutro,noaccent
+"pô, a marmita estava mais ou menos",comida,neutro,lower
+"pô, o saquinho ficou no meio termo!!",embalagem,neutro,lower
+"Pô, a moça do suporte foi normalzino",atendimento,neutro,typo
+a entrega não demorou nada...,entrega,positivo,lower|negation
+"sério, a janta foi show!!",comida,positivo,lower
+"mano, a tampa foi sohw...",embalagem,positivo,lower|noaccent|typo
+o pessoal do chat me conquistou!!,atendimento,positivo,noaccent
+"Po, o motoboy foi decepcionante",entrega,negativo,noaccent
+"mno, o acai estava salgada demais",comida,negativo,lower|noaccent|typo
+"Olha, o saquinho não fechou direito",embalagem,negativo,negation
+"pô, o povo do restaurante não deu a mínima...",atendimento,negativo,lower|negation
+"mnao, a entrega demorou o de sempre!!",entrega,neutro,lower|typo
+"sério, o açaí ficou no meio termo",comida,neutro,lower
+"Serio, o lacre foi mais ou menos",embalagem,neutro,noaccent
+"o SAC foi tranquilo, nada demas!!",atendimento,neutro,typo|negation
+"Olha, a entrega chegou antes de eu terminar o filme!",entrega,positivo,
+"sério, a janta me conquistou!",comida,positivo,lower
+"mano, a tampa não teve nenhum dano",embalagem,positivo,lower|negation
+"olha, o pssoal do chat me ajudou rapidinho!",atendimento,positivo,lower|typo
+"po, o cara da entrega foi uma lesma!",entrega,negativo,lower|noaccent
+"Sério, o lanche estava sagada demais",comida,negativo,typo
+"olha, o saquinho deixou a desejar!",embalagem,negativo,lower|typo
+a moça do suporte não deu a mínima!!,atendimento,negativo,lower|typo|negation
+"Serio, o cara da entrega demorou o de sempre!",entrega,neutro,noaccent|typo
+"Mano, o açaí não é nada demasi",comida,neutro,typo|negation
+"Pô, a tampa foi mais ou menos...",embalagem,neutro,
+"serio, a moca do suporte respondeu e prnoto",atendimento,neutro,lower|noaccent|typo
+o motoboy nem vi o tempo passar!!,entrega,positivo,lower|typo|negation
+"Po, o acai estava divina...",comida,positivo,noaccent
+"sério, a caixinha foi show!!",embalagem,positivo,lower|typo
+"mano, a moca do suporte nao deixou a desejar!!",atendimento,positivo,lower|noaccent|negation
+"mano, a entrega foi uma lesma...",entrega,negativo,lower
+"mano, o lanche estava intragavel...",comida,negativo,lower|noaccent
+"mano, o saquinho veio todo baguncado!",embalagem,negativo,lower|noaccent|typo
+o poov do restaurante não deu a mínima!!,atendimento,negativo,typo|negation
+"olha, o caar da entrega foi mais ou menos!",entrega,neutro,lower|typo
+"Sério, a marmita não é nada demais",comida,neutro,negation
+"Olha, o saquinho e nada dmais",embalagem,neutro,noaccent|typo|negation
+o pessoal do chat foi só ok...,atendimento,neutro,
+"Po, o cara da entrega nem vi o tempo passar!!",entrega,positivo,noaccent|negation
+"mano, a marmita me conquistou!!",comida,positivo,lower|typo
+"sério, a tampa foi show!!",embalagem,positivo,lower
+o sac me ajudou rapidinho!!,atendimento,positivo,lower
+o cara da entrega foi uma lesma!!,entrega,negativo,lower|typo
+o lache foi decepcionante,comida,negativo,typo
+"serio, a caixinha veio um desastre!",embalagem,negativo,lower|noaccent
+"Olha, o SAC foi uma poracria",atendimento,negativo,typo
+"mano, a entrega foi mas ou menos!!",entrega,neutro,lower|typo
+"serio, a janta nao e nada demais!",comida,neutro,lower|noaccent|negation
+"Mano, a caixinha foi normalzinho!",embalagem,neutro,noaccent
+"pô, a moça do suprote respondeu e pronto!",atendimento,neutro,lower|typo
+"Po, o mtoboy nao demorou nada",entrega,positivo,noaccent|typo|negation
+"sério, a marmita estava de babar...",comida,positivo,lower
+o lacre mandou bem!!,embalagem,positivo,lower|noaccent
+"serio, o povo do restaurante foi show!",atendimento,positivo,lower|noaccent|typo
+"serio, o cara da entrega nao chegou no prazo!!",entrega,negativo,lower|noaccent|negation
+"Mano, a janta estava salgada demais!!",comida,negativo,
+"pô, a caixinha veio um desastre!",embalagem,negativo,lower
+"po, a moca do suporte foi nota zero...",atendimento,negativo,lower|noaccent
+"Olh, o cara da entrega demorou o de sempre...",entrega,neutro,noaccent|typo
+"Po, o acai estava mais ou menos...",comida,neutro,noaccent
+"Mano, o lacre veio no padrão!",embalagem,neutro,
+"Olha, o pessoal do chat foi mis ou menos!!",atendimento,neutro,typo
+"olha, o cara da entrega mandou bem...",entrega,positivo,lower
+a marmita mandou bem,comida,positivo,noaccent
+"Olha, a tampa foi top!!",embalagem,positivo,
+"mano, a moca do suporte salvou meu pedido!",atendimento,positivo,lower|noaccent
+"mano, o motoboy levou uma eternidade",entrega,negativo,lower|noaccent
+"po, a janta estava intragavel",comida,negativo,lower|noaccent
+"sério, o saquinho derramou tudo!!",embalagem,negativo,lower
+o pessoal do chat me deixou no vacuo...,atendimento,negativo,noaccent|typo
+"pô, o motoboy demorou o de sempre...",entrega,neutro,lower
+"po, o acai foi normalzinho...",comida,neutro,lower|noaccent
+"Mano, o saquinho é nada demais!!",embalagem,neutro,negation
+"Olha, o povo do restaurante foi tranquilo, nada demais",atendimento,neutro,noaccent|negation
+"olha, o cara da entrega nem vi o tempo passar!!",entrega,positivo,lower|negation
+"séri, a marmita não tinha nada de errado",comida,positivo,lower|typo|negation
+"séroi, o saquinho foi show!!",embalagem,positivo,lower|typo
+"po, o povo do restaurante me ajudou rapidinho!!",atendimento,positivo,lower|noaccent
+"Olh, a entrega levou uma eternidade...",entrega,negativo,noaccent|typo
+"po, a marmita era pura gordura!!",comida,negativo,lower|noaccent
+"Mano, a tampa veio um desastre!",embalagem,negativo,noaccent
+o pessoal do chat foi uma porcaria,atendimento,negativo,lower|typo
+a entrega chegou mais ou menos na hora...,entrega,neutro,
+"sério, a janta foi mais ou menos",comida,neutro,lower|typo
+"Sério, a ciaxinha é nada demais",embalagem,neutro,typo|negation
+o povo do restaurante respondeu e pronto!!,atendimento,neutro,lower
+"Sério, o motoboy foi show!!",entrega,positivo,
+"po, o lanche estava divina...",comida,positivo,lower|noaccent
+"Olha, o lacre nao teve nenhum dano!",embalagem,positivo,noaccent|negation
+"po, o povo do restaurante foi show!",atendimento,positivo,lower|noaccent|typo
+"Olha, o motoboy levou uma eternidade",entrega,negativo,noaccent
+"pô, a marmita não estava boa!",comida,negativo,lower|negation
+"sério, a caixinha foi uma porcaria",embalagem,negativo,lower
+"Olha, o SAC me deixou no vácuo...",atendimento,negativo,
+o motoboy fiou no meio termo...,entrega,neutro,typo
+o açaí não é nada demais!,comida,neutro,negation
+a caixinha foi normalzinho!!,embalagem,neutro,
+"Olha, o SAC respndeu e pronto!",atendimento,neutro,typo
+"Sério, o cara da entrega não demorou nada!",entrega,positivo,negation
+"mano, o lanche estava de outro mundo!!",comida,positivo,lower
+o saquinho veio super seguro...,embalagem,positivo,lower|noaccent
+o SAC salvou meu pedido!!,atendimento,positivo,typo
+"Pô, o cara da entrega foi nota zero!",entrega,negativo,
+"Mano, a janta foi uma porcaria",comida,negativo,
+"olha, o lacre foi uma porcara!",embalagem,negativo,lower|typo
+"mano, o pessoal do chat foi nota zero...",atendimento,negativo,lower
+"mano, o motoboy foi so ok!!",entrega,neutro,lower|noaccent
+"Olha, a janta estava mais ou menos...",comida,neutro,
+"Sério, a caixinha é nada demais!!",embalagem,neutro,negation
+"pô, o pessoal do chat foi tranquilo, nada demais!",atendimento,neutro,lower|negation
+"Po, o motoboy foi top!!",entrega,positivo,noaccent
+a marmita estava de outro mundo...,comida,positivo,noaccent
+"Olha, a caixinha mandou bem",embalagem,positivo,
+"mano, o pessoal do chat foi gente boa...",atendimento,positivo,lower|noaccent|typo
+o cara da entrega sumiu no caminho!,entrega,negativo,typo
+"Po, a marmita estava salgada demais...",comida,negativo,noaccent
+o lacre foi uma porcaria,embalagem,negativo,lower
+"Olha, o SAC não ajudou em nada...",atendimento,negativo,negation
+"Serio, o cara da entrega foi so ok!",entrega,neutro,noaccent
+a marmita nao e nada demais...,comida,neutro,lower|noaccent|negation
+"Mano, a tampa é nada demais!",embalagem,neutro,negation
+"Olha, o pessoal do chat foi mais ou meos!!",atendimento,neutro,noaccent|typo
+"Sério, o cara da entrega não demorou nada!",entrega,positivo,negation
+"serio, o acai estava de babar",comida,positivo,lower|noaccent
+"serio, a caixinha veio super seguro",embalagem,positivo,lower|noaccent
+"Olha, o povo do restaurante me ajudou rapidinho!!",atendimento,positivo,noaccent
+"serio, o motoboy foi decepcionante!",entrega,negativo,lower|noaccent
+"Serio, o lanche estava salgada demais",comida,negativo,noaccent
+"sério, o lacre derramou tudo!!",embalagem,negativo,lower
+"mano, o povo do restaurante deixou a desejar!!",atendimento,negativo,lower
+o cara da entrega foi mais ou menos!,entrega,neutro,
+"serio, o acai foi nromalzinho...",comida,neutro,lower|noaccent|typo
+a caixinha é nada demais,embalagem,neutro,lower|negation
+"Mano, o povo do restaurante ficou no meio termo...",atendimento,neutro,
+"Olha, a entrega me conquistou!",entrega,positivo,typo
+o aai foi show...,comida,positivo,lower|noaccent|typo
+"Po, a tampa nao teve nenhum dano",embalagem,positivo,noaccent|negation
+o sac mandou bem,atendimento,positivo,lower|noaccent
+o cara da entrega foi decepcionante,entrega,negativo,noaccent
+"Olha, o acai era pura gordura!!",comida,negativo,noaccent
+"olha, a caixinha veio um desasre",embalagem,negativo,lower|noaccent|typo
+"olha, o pessoal do chat me deixou no vácuo!!",atendimento,negativo,lower
+o cara da entrega ficou no meio termo!!,entrega,neutro,noaccent
+"Serio, a marmita foi normalzinho...",comida,neutro,noaccent|typo
+"sério, a caixinha foi mais ou menos!",embalagem,neutro,lower
+"Pô, o SAC foi mais ou menos...",atendimento,neutro,
+"sério, a entrega foi show...",entrega,positivo,lower
+"olha, a janta estava de babar!!",comida,positivo,lower|typo
+"Sério, o lacre não vazou nada",embalagem,positivo,negation
+a moca do suporte nao deixou a desejar...,atendimento,positivo,noaccent|negation
+o cara da entrega nao chegou no przao...,entrega,negativo,noaccent|typo|negation
+a marmita era pura gordrua!,comida,negativo,lower|noaccent|typo
+"Pô, o saquinho não fechou direito",embalagem,negativo,negation
+"serio, o sac me tratou com descaso!",atendimento,negativo,lower|noaccent|typo
+"Pô, o cara da entrega foi só ok!",entrega,neutro,
+"pô, o açaí não é nada demais!!",comida,neutro,lower|negation
+"Po, o lacre vieo no padrao!!",embalagem,neutro,noaccent|typo
+"serio, o pessoal do chat foi tranquilo, nada demais",atendimento,neutro,lower|noaccent|negation
+"Pô, o cara da entrega voou de rápido!",entrega,positivo,
+"Sério, a mamrita não tinha nada de errado",comida,positivo,typo|negation
+"Pô, o lacre não vazou nada!!",embalagem,positivo,negation
+"Mano, o povo do restaurante foi show...",atendimento,positivo,noaccent
+"maon, o motoboy foi uma lesma!!",entrega,negativo,lower|typo
+o lanche foi nota zero,comida,negativo,lower|noaccent
+"sério, o saquinho não fechou direito!",embalagem,negativo,lower|negation
+"Po, o povo do restaurante deixou a desejar!!",atendimento,negativo,noaccent
+"olha, a entrega chegou mais ou menos na hora!!",entrega,neutro,lower|noaccent
+a janta não é nada demais,comida,neutro,negation
+"Pô, o lacre veio no padrão!!",embalagem,neutro,
+"Olh,a a moca do suporte foi tranquilo, nada demais",atendimento,neutro,noaccent|typo|negation
+"Po, o cara da entrega me conquistou!!",entrega,positivo,noaccent
+"Sério, a marmita estava de outro mundo!!",comida,positivo,
+"pô, a tampa veio tudo certinho...",embalagem,positivo,lower
+"olha, o sac foi top",atendimento,positivo,lower
+"pô, a entrega sumiu no caminho!!",entrega,negativo,lower
+"mano, a janta dexou a desejar!!",comida,negativo,lower|typo
+"Pô, o lacre foi nota zero...",embalagem,negativo,typo
+"olha, o sac nao ajudou em nada...",atendimento,negativo,lower|noaccent|negation
+"mano, o motoboy foi so ok...",entrega,neutro,lower|noaccent
+"sério, o lache foi só ok",comida,neutro,lower|typo
+"Po, o saquinho e nada demais!!",embalagem,neutro,noaccent|negation
+"Po, a moca do suporte foi tranquilo, nada demais!!",atendimento,neutro,noaccent|negation
+"Man,o o cara da entrega me conquistou...",entrega,positivo,typo
+"po, a marmita estava de baba!",comida,positivo,lower|noaccent|typo
+"mano, o lacer mandou bem...",embalagem,positivo,lower|typo
+"mano, o povo do restaurante me ajuduo rapidinho",atendimento,positivo,lower|typo
+"Olha, o motoboy foi uma lesma",entrega,negativo,noaccent|typo
+"olha, o lanche não estava boa!!",comida,negativo,lower|typo|negation
+"Pô, a tampa veio um desastre!!",embalagem,negativo,
+"Olha, o povo do restaurante me deixou no vácuo!!",atendimento,negativo,
+"olha, a entrega demorou o de sempre...",entrega,neutro,lower
+"serio, a janta foi mais ou menos!",comida,neutro,lower|noaccent|typo
+a tampa foi mais ou mens!,embalagem,neutro,lower|typo
+"sério, a moça do suporte foi normalzinho!!",atendimento,neutro,lower
+"mano, o cara da entrega voou de rápido...",entrega,positivo,lower
+"sério, a janta estava de babar!!",comida,positivo,lower
+"sério, o lacre veio sper seguro...",embalagem,positivo,lower|typo
+"Serio, a moca do suporte salvou meu pedido...",atendimento,positivo,noaccent
+"serio, a entrega nao chegou no prazo...",entrega,negativo,lower|noaccent|typo|negation
+"Pô, a marmita estava intragável!",comida,negativo,typo
+"Mano, o lacre veio um desastre!",embalagem,negativo,typo
+"mano, o pessoal do chat me tratou com descaso...",atendimento,negativo,lower
+"Serio, o cara da entrega foi mais ou menos!!",entrega,neutro,noaccent
+o lanche foi so ok!,comida,neutro,lower|noaccent
+"Mano, o lacre veio no padrão",embalagem,neutro,
+"pô, o sac foi tranquilo, nada demais!",atendimento,neutro,lower|negation
+"mano, o motoboy chegou antes de eu terminar o filme",entrega,positivo,lower|noaccent
+"Srio, a marmita estava divina",comida,positivo,typo
+"sério, o lacre veio tudo certinho",embalagem,positivo,lower
+"olha, o sac me conquistou",atendimento,positivo,lower
+"Serio, o motoboy levou uma eternidade...",entrega,negativo,noaccent
+"sério, o açaí esava intragável!!",comida,negativo,lower|typo
+"po, a caixinha veio todo baguncado!",embalagem,negativo,lower|noaccent
+"Mano, o pessoal do chat nao ajudou em nada!",atendimento,negativo,noaccent|negation
+o motoboy chegou mais ou menos na hora,entrega,neutro,typo
+"Pô, a marmita não é nada demais!",comida,neutro,negation
+a caixinha veio no padrao,embalagem,neutro,noaccent|typo
+a moça do suporte foi só ok...,atendimento,neutro,lower
+"Pô, a entrega não demorou nada...",entrega,positivo,negation
+"Olha, a marmita mandu bem...",comida,positivo,noaccent|typo
+"Serio, o saquinho foi show!!",embalagem,positivo,noaccent
+"pô, a moça do suporte me ajudou rapidinho!!",atendimento,positivo,lower
+"mano, o cara da entrega levou uma eternidade!!",entrega,negativo,lower
+"serio, a janta foi decepcionante!!",comida,negativo,lower|noaccent
+a tampa derramou tudo!!,embalagem,negativo,typo
+"maon, o povo do restaurante me tratou com descaso",atendimento,negativo,lower|typo
+"Olha, o cara da entrega chegou mais ou menos na hora!!",entrega,neutro,noaccent
+"Olha, a marmita nao e nada demais!!",comida,neutro,noaccent|negation
+"Mano, a tampa foi mais ou menos",embalagem,neutro,
+"mano, o povo do restaurante foi tranquilo, nada demais",atendimento,neutro,lower|negation
+"Pô, a entrega foi top!!",entrega,positivo,
+"Pô, o lanche estava divina!",comida,positivo,typo
+"pô, a caixinha foi top",embalagem,positivo,lower
+"Olha, o SAC me ajudou rapidinho",atendimento,positivo,noaccent
+"Olha, a enrega foi nota zero...",entrega,negativo,typo
+"mano, o açaí foi nota zero",comida,negativo,lower
+"Mano, a tampa foi uma porcaria!!",embalagem,negativo,
+"Pô, o pessoal do chat foi uma porcaria!",atendimento,negativo,
+"Mano, o motoboy foi só ok!",entrega,neutro,
+"Mano, a janta nao e nada demais...",comida,neutro,noaccent|negation
+"Mano, o saquinho e nada demais...",embalagem,neutro,noaccent|negation
+"Pô, o povo do restaurante respondeu e pronto",atendimento,neutro,
+"Mano, a entrega não demorou naad",entrega,positivo,typo|negation
+a marmita estava de babar,comida,positivo,lower|noaccent
+"Sério, o sauqinho foi show",embalagem,positivo,typo
+"Po, o povo do restaurante salvou meu pedido...",atendimento,positivo,noaccent
+"po, a entrega nao chegou no prazo...",entrega,negativo,lower|noaccent|typo|negation
+"Olha, a janta era pura gordura!",comida,negativo,
+"Pô, a caixinha veio um desastre",embalagem,negativo,typo
+"Olha, a moça do suporte deixou a desejar",atendimento,negativo,
+"Pô, a entrega demorou o de sempre",entrega,neutro,
+"Mano, a janta estava mais ou menos...",comida,neutro,
+o saquinho foi so ok...,embalagem,neutro,lower|noaccent|typo
+"o povo do restaurante foi tranquilo, nada demais!!",atendimento,neutro,lower|negation
+"sério, o motoboy nem vi o tempo passar!!",entrega,positivo,lower|negation
+"Pô, a janta me conquistou!!",comida,positivo,
+"Sério, a tampa foi show...",embalagem,positivo,
+"olha, o sac salvou meu pedido...",atendimento,positivo,lower
+"Mano, a entrgea foi uma lesma",entrega,negativo,typo
+"pô, a marmita foi nota zeo!!",comida,negativo,lower|typo
+"mano, o saquinho não fechou direito!",embalagem,negativo,lower|negation
+"sério, o povo do restaurante me deixou no vácuo...",atendimento,negativo,lower|typo
+"mano, a etnrega foi só ok!",entrega,neutro,lower|typo
+o açaí foi normalzinho!!,comida,neutro,
+"Sério, o saquinho veio no padrão",embalagem,neutro,
+"Olha, o povo do restaurante respondeu e pronto!",atendimento,neutro,
+"pô, o motoboy foi show",entrega,positivo,lower
+o lanche estava de baar,comida,positivo,typo
+"sério, o lacre não teve nenhum dano...",embalagem,positivo,lower|negation
+"Serio, o SAC foi gente boa...",atendimento,positivo,noaccent
+"Serio, o cara da entrega foi uma porcaria",entrega,negativo,noaccent
+"Serio, o acai foi decepcionante!",comida,negativo,noaccent
+"po, a tampa derramou tudo",embalagem,negativo,lower|noaccent
+"olha, a moça do suporte não deu a mínima!!",atendimento,negativo,lower|negation
+"Po, o motoboy ficou no meio termo!!",entrega,neutro,noaccent
+"sério, a marmita ficou no meio termo!!",comida,neutro,lower
+"mano, a caixinha foi só ok!!",embalagem,neutro,lower
+"Po, o SAC respondeu e pronto...",atendimento,neutro,noaccent
+"po, o cara da entrega me conquistou...",entrega,positivo,lower|noaccent|typo
+"Mano, o lanche não tiha nada de errado",comida,positivo,typo|negation
+"Mano, a tampa não vazou naad!!",embalagem,positivo,typo|negation
+"Serio, o povo do restaurante me ajudou rapidinho",atendimento,positivo,noaccent
+"Mano, a entrega levou uma eternidade",entrega,negativo,noaccent
+"Ohla, a marmita estava salgada demais!!",comida,negativo,noaccent|typo
+"Sério, a tampa não fechou direito...",embalagem,negativo,negation
+"pô, o pessoal do chat foi decepcionante!",atendimento,negativo,lower|typo
+"sério, a entrega chegou mais ou menos na hora!",entrega,neutro,lower
+"mano, a janta foi normalzinho!!",comida,neutro,lower
+"sério, a tmapa veio no padrão...",embalagem,neutro,lower|typo
+"pô, o pessoal do chat foi normalzinho!",atendimento,neutro,lower|typo
+"serio, a entrega foi show",entrega,positivo,lower|noaccent
+a janta esatva de outro mundo,comida,positivo,typo
+"mano, a tampa veio tudo certinho",embalagem,positivo,lower
+"pô, o povo do restaurante salvou meu pedido",atendimento,positivo,lower
+"pô, a entrega não chegou no prazo",entrega,negativo,lower|typo|negation
+"Pô, a janta deixou a desejar...",comida,negativo,
+"Olha, a tmpa derramou tudo!!",embalagem,negativo,noaccent|typo
+"pô, o povo do restaurante me tratou com descaso!!",atendimento,negativo,lower|typo
+"Serio, o cara da entrega foi so ok...",entrega,neutro,noaccent
+"pô, a marmita foi normalzinho",comida,neutro,lower|typo
+"Serio, a caixinha e nada demais!",embalagem,neutro,noaccent|typo|negation
+"Pô, o povo do restaurante foi mais ou menos!!",atendimento,neutro,
+o cra da entrega foi top...,entrega,positivo,lower|typo
+"po, a marmita estava de babar...",comida,positivo,lower|noaccent|typo
+"Po, a caixinha nao vazou nada!!",embalagem,positivo,noaccent|negation
+a moaç do suporte foi top!!,atendimento,positivo,lower|typo
+"mano, o motoboy não chegou no prazo...",entrega,negativo,lower|typo|negation
+"po, o lanche nao estava boa!!",comida,negativo,lower|noaccent|negation
+a caixinha foi decepcioante!,embalagem,negativo,typo
+"sério, o povo do restaurante me deixou no vácuo!!",atendimento,negativo,lower
+"Pô, o motoboy ficou no meio termo...",entrega,neutro,
+"Olha, a marmita ficou no meio termo...",comida,neutro,
+"Olha, a caixinha ficou no meio termo...",embalagem,neutro,noaccent
+"mano, o sac foi normalzinho!!",atendimento,neutro,lower|noaccent
+"Serio, o cara da entrega nao demorou nada",entrega,positivo,noaccent|negation
+o lanche nao tinha naad de errado!,comida,positivo,noaccent|typo|negation
+"mano, a tampa foi top!!",embalagem,positivo,lower|noaccent
+o SAC foi gente boa,atendimento,positivo,noaccent|typo
+"Mano, a entrega levou uma eternidade!!",entrega,negativo,
+"Po, o lanche era pura gordura",comida,negativo,noaccent
+a caixinha veio um desastre!,embalagem,negativo,
+o sac foi decepcionante,atendimento,negativo,lower|noaccent
+"olha, a entrega foi só ok...",entrega,neutro,lower|typo
+o lanche ficou no meio termo,comida,neutro,lower|noaccent|typo
+"mao, a caixinha é nada demais!",embalagem,neutro,lower|typo|negation
+"Olha, a moca do suporte foi mais ou menos!!",atendimento,neutro,noaccent
+o cara da entrega voou de rapido...,entrega,positivo,lower|noaccent
+"mano, a mamrita foi top",comida,positivo,lower|typo
+"sério, o lacre veio tudo certinho...",embalagem,positivo,lower
+a moça do suporte me ajudou rapidinho!!,atendimento,positivo,
+"Sério, o cra da entrega sumiu no caminho",entrega,negativo,typo
+"mano, o açaí estava salgada demais...",comida,negativo,lower|typo
+"Mano, a tampa veio um desastre...",embalagem,negativo,noaccent
+a moca do suporte me deixou no vacuo...,atendimento,negativo,lower|noaccent
+"Pô, o cara da entrega chegou mais ou menos na hora...",entrega,neutro,
+"Olha, o açaí foi normalzinho...",comida,neutro,
+"olha, a caixinha foi mais ou menos!",embalagem,neutro,lower
+"mano, a moca do suporte foi mais ou menos...",atendimento,neutro,lower|noaccent|typo
+"Po, o cara da entrega nem vi o tempo passar...",entrega,positivo,noaccent|negation
+"serio, o lanche estava divina!!",comida,positivo,lower|noaccent
+"Olha, o lacre não vazou nada!",embalagem,positivo,negation
+"olha, o sac foi top!!",atendimento,positivo,lower|noaccent
+"Pô, o cara da entrega levou uma eternidade",entrega,negativo,
+"pô, o lanche não estava boa!!",comida,negativo,lower|typo|negation
+"Pô, a tampa derramou tudo...",embalagem,negativo,
+o povo do restaurante me tratou com descaso,atendimento,negativo,
+"Mano, o motoboy foi mais ou menos!",entrega,neutro,noaccent|typo
+"olha, o lanche foi normalzinho",comida,neutro,lower
+"Serio, o saquinho foi mais ou menos",embalagem,neutro,noaccent
+"Po, a moca do suprte respondeu e pronto",atendimento,neutro,noaccent|typo
+"Sério, a entrega mandou bem",entrega,positivo,typo
+"Olha, o lanche mandou bem...",comida,positivo,noaccent
+a caixinha não teve nenhum dano...,embalagem,positivo,negation
+"sério, a moça do suporte mandou bem!!",atendimento,positivo,lower
+"Olha, o motoboy sumiu no caminho",entrega,negativo,
+"po, a marmita foi nota zero...",comida,negativo,lower|noaccent
+a caixinha foi uma porcaria!!,embalagem,negativo,lower
+o pessoal do chat deixou a desejar!,atendimento,negativo,lower|noaccent
+"Po, o motoboy demorou o de sempre!!",entrega,neutro,noaccent
+"Olha, o lanche estava mais ou mneos!!",comida,neutro,typo
+"Mano, a tampa e nada demais!!",embalagem,neutro,noaccent|negation
+o sac foi normalzinho!!,atendimento,neutro,lower|typo
+"sério, a entrega nem vi o tempo passar...",entrega,positivo,lower|negation
+o açaí estava de babar...,comida,positivo,lower
+"Mano, a tampa nao vazou nada...",embalagem,positivo,noaccent|negation
+"olha, o povo do restaurante salvou meu pedido",atendimento,positivo,lower|noaccent
+"serio, o cara da entrega sumiu no camnho!",entrega,negativo,lower|noaccent|typo
+"Séri, o açaí foi nota zero",comida,negativo,typo
+"Mano, o lacre deixou a desejar!",embalagem,negativo,noaccent
+"serio, a moca do suporte nao ajudou em nada!",atendimento,negativo,lower|noaccent|negation
+"Mano, a entrega demorou o de sempre",entrega,neutro,
+"Mano, o acai ficou no meio termo!",comida,neutro,noaccent
+"sério, a tampa é nada demias",embalagem,neutro,lower|typo|negation
+"Olha, a moça do suporte foi só ok!",atendimento,neutro,typo
+"mano, o cara da entrega me conquistou!",entrega,positivo,lower|noaccent
+"olha, o açaí não tinha naa de errado...",comida,positivo,lower|typo|negation
+"pô, a caixinha foi show",embalagem,positivo,lower
+"pô, o povo do restaurante não deixou a desejar",atendimento,positivo,lower|typo|negation
+"Sério, o motoboy foi uma porcaria!!",entrega,negativo,typo
+"olha, o lnache não estava boa...",comida,negativo,lower|typo|negation
+o saquinho não fechou direito...,embalagem,negativo,lower|negation
+o SAC nao deu a minima,atendimento,negativo,noaccent|typo|negation
+"Olha, o cara da entrega demorou o de sempre",entrega,neutro,
+"Sério, o açaí ficou no meio tero!!",comida,neutro,typo
+"Sério, o lacre ficou no meio termo...",embalagem,neutro,
+"pô, a moça do suporte foi mais ou menos...",atendimento,neutro,lower
+"Pô, o motoboy chegou antes de eu terminar o filme!",entrega,positivo,
+"olha, a janta estava divina!!",comida,positivo,lower|typo
+a tampa mandou bem...,embalagem,positivo,lower
+"sério, o pessoal do chat salvou meu pedido...",atendimento,positivo,lower
+"mano, a entrega foi nota zero!",entrega,negativo,lower|noaccent
+"Pô, o açaí estava intragável...",comida,negativo,
+"Sério, o saquinho não fechou direito!",embalagem,negativo,negation
+o pessoal do chat foi uma porcaria!,atendimento,negativo,typo
+"Olha, a entrega foi mais ou menos",entrega,neutro,noaccent
+"serio, o acai nao e nada demais!!",comida,neutro,lower|noaccent|negation
+a tampa ficou no mieo termo!!,embalagem,neutro,lower|typo
+"o SAC foi tranquilo, nada deais!!",atendimento,neutro,typo|negation
+"Mano, a entrega vou de rápido...",entrega,positivo,typo
+o açaí estava de outro mundo!,comida,positivo,
+"Sério, a tampa não teve nenhum dano",embalagem,positivo,negation
+"pô, o sac foi gente boa",atendimento,positivo,lower
+"mano, o cara da entrega nao chegou no prazo!",entrega,negativo,lower|noaccent|negation
+"Pô, a janta não estava boa!!",comida,negativo,negation
+o lacre não fechou direito,embalagem,negativo,typo|negation
+"Sério, o SAC me tratou com descaso...",atendimento,negativo,
+"Po, o cara da entrega foi mais ou menos!!",entrega,neutro,noaccent
+"po, a marmita nao e nada demais...",comida,neutro,lower|noaccent|negation
+"mano, o saquinho ficou no meio termo...",embalagem,neutro,lower
+"olha, a moça do suporte foi normalzinho...",atendimento,neutro,lower
+"Olha, o cara da entrega nem vi o tempo passar!",entrega,positivo,noaccent|typo|negation
+"olha, a janta estava de outro mundo",comida,positivo,lower
+a caixinha me conquistou!,embalagem,positivo,lower
+"Po, o SAC salvou meu pedido!!",atendimento,positivo,noaccent
+"Olha, o motoboy foi nota zero",entrega,negativo,noaccent
+"mano, o lanche estava intragável!",comida,negativo,lower|typo
+"Mano, a tampa foi decepcionatne!",embalagem,negativo,noaccent|typo
+"Olha, o SAC me tratu com descaso!!",atendimento,negativo,typo
+o motoboy foi normalzinho!!,entrega,neutro,lower|noaccent
+"po, a janat nao e nada demais",comida,neutro,lower|noaccent|typo|negation
+"po, a caixinha foi so ok",embalagem,neutro,lower|noaccent
+"olha, o pessoal do chat respondeu e pronto...",atendimento,neutro,lower|noaccent
+"pô, o cara da entrega chegou antes de eu terminar o filme...",entrega,positivo,lower|typo
+"serio, o lanche me conquistou...",comida,positivo,lower|noaccent
+"Mano, a tampa nao teve nenhum dano!",embalagem,positivo,noaccent|negation
+"mano, o pessoal do chat foi getne boa!!",atendimento,positivo,lower|typo
