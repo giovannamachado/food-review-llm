@@ -1,0 +1,8 @@
+{
+  "base_model": "neuralmind/bert-base-portuguese-cased",
+  "rank": 8,
+  "seed": 13,
+  "val": {"macro_f1": 0.9191, "n": 317},
+  "test_id": {"macro_f1": 0.9138, "n": 317},
+  "test_ood": {"macro_f1": 0.5919, "n": 900}
+}

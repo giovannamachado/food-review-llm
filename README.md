@@ -4,7 +4,7 @@ Pipeline de classificação de **aspecto** e **sentimento** de reviews de delive
 
 **Hugging Face:** [modelo (baselines)](https://huggingface.co/giovannamachado/food-review-baselines) · [dataset sintético](https://huggingface.co/datasets/giovannamachado/food-review-synthetic-ptbr)
 
-> **Estado honesto.** Rodado e medido aqui: dados, baselines, métricas, testes. **Escrito mas NÃO executado** (sem GPU, sem torch e sem chave de API neste ambiente): `scripts/train_lora.py` (só `--dry-run` validado) e `scripts/eval_zeroshot_llm.py`. Portanto **não há ainda nenhum número de LoRA nem de LLM** neste repositório. No Hugging Face estão publicados apenas o **baseline TF-IDF** e o dataset, que é **sintético**.
+> **Estado honesto.** Medido: dados, baselines e testes (CPU) e **LoRA** (BERTimbau, rank 8, GPU T4 no Google Colab, **uma única rodada, seed 13, sem IC nem ECE**). **Escrito mas NÃO executado:** `scripts/eval_zeroshot_llm.py` (baseline zero-shot com LLM, requer chave de API), portanto ainda **não há número de LLM**. No Hugging Face estão publicados apenas o **baseline TF-IDF** e o dataset, que é **sintético**; o adaptador LoRA **não** foi publicado.
 
 ## O que o experimento mostra (macro-F1, `docs/RESULTS.md`)
 | tarefa | modelo | test_id | test_ood [IC95%] | ECE ood |
@@ -13,10 +13,12 @@ Pipeline de classificação de **aspecto** e **sentimento** de reviews de delive
 | aspecto | TF-IDF palavra+char + LR | **1.000** | **0.662** [0.63, 0.69] | 0.06 |
 | sentimento | majority | 0.165 | 0.167 | 0.67 |
 | sentimento | TF-IDF palavra+char + LR | **1.000** | **0.413** [0.38, 0.45] | 0.29 |
+| aspecto | **LoRA** BERTimbau r=8 (1 rodada) | 1.000 | **0.756** (sem IC) | n/d |
+| sentimento | **LoRA** BERTimbau r=8 (1 rodada) | 0.914 | **0.592** (sem IC) | n/d |
 
 1. **O teste in-distribution não discrimina nada:** 1.000 com a gramática compartilhada. Reportar só isso seria enganoso.
 2. **Sob mudança de distribuição o bag-of-words colapsa** (sentimento: 0.41; um chute aleatório em 3 classes balanceadas daria ≈0.33). Por fatia (sentimento, OOD): negação **0.25** (n=181), typo 0.40, limpo 0.45. Erros inspecionados (`artifacts/errors_ood.csv`): substantivos nunca vistos ("motoboy", "saquinho", "lanche") com predicados genéricos ("foi show"), e negação ("não demorou nada" lido como negativo).
-3. **Hipótese a testar com LoRA (não verificada):** um encoder pré-treinado (BERTimbau) deve ganhar principalmente em negação e vocabulário novo. O experimento está pronto para confirmar ou refutar isso — se não ganhar, esse também é o resultado.
+3. **LoRA ganha sob mudança de distribuição:** no OOD, +0.09 F1 em aspecto (0.66 → 0.76) e +0.18 em sentimento (0.41 → 0.59). Mas é **uma rodada sem intervalo de confiança** (não dá para afirmar significância), e em sentimento o LoRA ficou **abaixo do baseline in-distribution** (0.914 vs 1.000; possível subtreino com rank 8 e 4 épocas, não investigado). Ainda falta: múltiplas seeds, IC, ECE e análise por fatia (negação/typo) do LoRA.
 
 ## Arquitetura do pipeline
 ```mermaid
@@ -36,7 +38,8 @@ flowchart LR
 ```bash
 make install && make data && make baselines && make test      # 8 testes; tudo em CPU, ~10 s
 # Com GPU (Colab):
-pip install -e ".[lora]" && python scripts/train_lora.py --task sentiment      # gera artifacts/lora_sentiment/metrics.json
+pip install -e ".[lora]" && pip uninstall -y torchao   # no Colab, o torchao pré-instalado é incompatível com o peft
+python scripts/train_lora.py --task sentiment          # gera artifacts/lora_sentiment/metrics.json
 # Com chave de API (informe os preços vigentes; não há padrão):
 ANTHROPIC_API_KEY=... python scripts/eval_zeroshot_llm.py --model <id> --price-in <usd/1M> --price-out <usd/1M>
 # Publicar (privado por padrão):
@@ -50,7 +53,7 @@ pip install -e ".[hub]" && HF_TOKEN=... python scripts/push_to_hub.py --user <us
 - **ECE** reportado: um modelo confiante e errado sob OOD é pior que um errado e incerto.
 
 ## Limitações / próximos passos
-Rodar LoRA e zero-shot e preencher a comparação (F1, ECE, p95, custo/1k); trocar o dataset por reviews reais com rótulo humano e medir concordância; multi-aspecto por review; quantização (int8) e medição de latência de servidor.
+Repetir o LoRA com várias seeds + IC + ECE + fatias e publicar o adaptador; rodar o zero-shot e preencher a comparação (F1, ECE, p95, custo/1k); trocar o dataset por reviews reais com rótulo humano e medir concordância; multi-aspecto por review; quantização (int8) e medição de latência de servidor.
 Cards: [DATA_CARD](docs/DATA_CARD.md) · [MODEL_CARD](docs/MODEL_CARD.md).
 
 ## Projetos relacionados
