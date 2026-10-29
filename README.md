@@ -2,7 +2,9 @@
 
 Pipeline de classificação de **aspecto** e **sentimento** de reviews de delivery em PT-BR: geração de dataset com split de distribuição, baselines clássicos avaliados com IC bootstrap, calibração e fatias de erro, script de **fine-tuning LoRA**, baseline **zero-shot com LLM** e publicação no Hugging Face.
 
-> **Estado honesto.** Rodado e medido aqui: dados, baselines, métricas, testes. **Escrito mas NÃO executado** (sem GPU, sem torch, sem chave de API, sem token do Hub neste ambiente): `scripts/train_lora.py` (só `--dry-run` validado), `scripts/eval_zeroshot_llm.py`, `scripts/push_to_hub.py`. Portanto **não há ainda nenhum número de LoRA nem de LLM** neste repositório, e nada foi publicado no Hugging Face. O dataset é **sintético**.
+**Hugging Face:** [modelo (baselines)](https://huggingface.co/giovannamachado/food-review-baselines) · [dataset sintético](https://huggingface.co/datasets/giovannamachado/food-review-synthetic-ptbr)
+
+> **Estado honesto.** Rodado e medido aqui: dados, baselines, métricas, testes. **Escrito mas NÃO executado** (sem GPU, sem torch e sem chave de API neste ambiente): `scripts/train_lora.py` (só `--dry-run` validado) e `scripts/eval_zeroshot_llm.py`. Portanto **não há ainda nenhum número de LoRA nem de LLM** neste repositório. No Hugging Face estão publicados apenas o **baseline TF-IDF** e o dataset, que é **sintético**.
 
 ## O que o experimento mostra (macro-F1, `docs/RESULTS.md`)
 | tarefa | modelo | test_id | test_ood [IC95%] | ECE ood |
@@ -50,3 +52,7 @@ pip install -e ".[hub]" && HF_TOKEN=... python scripts/push_to_hub.py --user <us
 ## Limitações / próximos passos
 Rodar LoRA e zero-shot e preencher a comparação (F1, ECE, p95, custo/1k); trocar o dataset por reviews reais com rótulo humano e medir concordância; multi-aspecto por review; quantização (int8) e medição de latência de servidor.
 Cards: [DATA_CARD](docs/DATA_CARD.md) · [MODEL_CARD](docs/MODEL_CARD.md).
+
+## Projetos relacionados
+- [support-agent](https://github.com/giovannamachado/support-agent) — agente RAG com tool-use e avaliação de alucinação
+- [inference-gateway](https://github.com/giovannamachado/inference-gateway) — gateway de inferência com cache semântico e resiliência

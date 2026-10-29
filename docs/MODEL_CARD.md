@@ -9,7 +9,7 @@ tags: [baseline, sentiment, aspect, pt-br]
 
 Dois classificadores scikit-learn (aspecto e sentimento): TF-IDF palavra(1–2) + char_wb(2–5) → regressão logística. **São baselines**: o objetivo é fixar o piso que o fine-tuning LoRA (`scripts/train_lora.py`, ainda não executado) precisa superar.
 
-**Dados:** [food-review-synthetic-ptbr](DATA_CARD.md) — sintético. **Uso pretendido:** demonstração/benchmark de pipeline. **Fora de escopo:** qualquer decisão sobre reviews reais.
+**Dados:** [food-review-synthetic-ptbr](https://huggingface.co/datasets/giovannamachado/food-review-synthetic-ptbr) — sintético. **Uso pretendido:** demonstração/benchmark de pipeline. **Fora de escopo:** qualquer decisão sobre reviews reais.
 
 ## Desempenho (macro-F1, IC95% bootstrap em `docs/RESULTS.md`)
 | tarefa | test_id | test_ood |
@@ -20,3 +20,5 @@ Dois classificadores scikit-learn (aspecto e sentimento): TF-IDF palavra(1–2) 
 O score in-distribution é 1.0 porque a gramática é compartilhada com o treino: **não discrimina modelos**. O split OOD é a medida relevante, e mostra que os modelos de bag-of-words memorizam vocabulário (colapso em substantivos/construções novos, pior ainda em negação: 0.25 F1 em sentimento).
 **Latência:** ~56 ms por 1000 textos em 1 CPU (inferência, sem batching especial); artefatos de ~90 KB.
 **Reprodução:** `python scripts/make_data.py && python scripts/run_baselines.py`.
+
+**Código e pipeline completo (LoRA, zero-shot, testes):** https://github.com/giovannamachado/food-review-llm

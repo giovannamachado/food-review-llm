@@ -29,6 +29,9 @@ def main():
     model_id, data_id = f"{a.user}/food-review-baselines", f"{a.user}/food-review-synthetic-ptbr"
     api.create_repo(model_id, repo_type="model", private=not a.public, exist_ok=True)
     api.create_repo(data_id, repo_type="dataset", private=not a.public, exist_ok=True)
+    # create_repo(exist_ok=True) não altera a visibilidade de repositórios já existentes
+    api.update_repo_settings(repo_id=model_id, repo_type="model", private=not a.public)
+    api.update_repo_settings(repo_id=data_id, repo_type="dataset", private=not a.public)
     api.upload_folder(repo_id=model_id, repo_type="model", folder_path=stage({
         "README.md": ROOT / "docs" / "MODEL_CARD.md", "model_aspect.joblib": ROOT / "artifacts" / "model_aspect.joblib",
         "model_sentiment.joblib": ROOT / "artifacts" / "model_sentiment.joblib", "metrics.json": ROOT / "artifacts" / "metrics.json"}))
